@@ -21,7 +21,7 @@ The task of this competition is to extract the atmospheric spectra from each obs
 This is a multimodal supervised learning task. Participants can choose to detrend this jitter noise in either modality (i.e. the image, time or spectral domains) or combinations thereof. Each modality bears different advantages. Here we outline two common training strategies.
 
 Approach 1: Train directly on the full 3D data cube and extract the corresponding spectra. This approach leverages the rich information content but as a consequence requires a lot of computing resources (See Image --> Spectral Domain on the above figure).
-Approach 2: Make the data lighter by summing up the fluxes along the pixel y-axis, for each wavelength, resulting in 2D images of dimension (`$N_{times}$`, `$N_{wavelengths}$`), and transform the images in order to enhance transit depth variations between wavelengths.
+Approach 2: Make the data lighter by summing up the fluxes along the pixel y-axis, for each wavelength, resulting in 2D images of dimension ($N\_{times}$, $N\_{wavelengths}$), and transform the images in order to enhance transit depth variations between wavelengths.
 However, neither approach is optimal for denoising jitter time series and we anticipate the winning solutions to include information from all three domains.
 
 ## Evaluation
@@ -38,7 +38,7 @@ $$
 score = \frac{L- L_{ref}}{L_{ideal} - L_{ref}}
 $$
 
-We define `$L\_{ideal}$` as the case where the submission perfectly matches the ground truth values, with an uncertainty of 10 parts per million (ppm). This ideal case is defined based on Ariel's Stability Requirement. For `$L\_{ref}$` is defined using the mean and variance of the training dataset as its prediction for all instances.
+We define $L\_{ideal}$ as the case where the submission perfectly matches the ground truth values, with an uncertainty of 10 parts per million (ppm). This ideal case is defined based on Ariel's Stability Requirement. For $L\_{ref}$ is defined using the mean and variance of the training dataset as its prediction for all instances.
 
 The score will return a float in the interval [0, 1], with higher scores corresponding to better performing models. Any score below 0 will be treated as 0.
 
