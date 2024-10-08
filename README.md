@@ -1,6 +1,6 @@
 # Tutorials: NeurIPS - Ariel Data Challenge 2024
 
-© 2024 Sakura
+© 2024 kaggle君-sakura
 
 ## Materials
 
