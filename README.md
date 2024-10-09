@@ -38,7 +38,7 @@ This course is designed to introduce undergraduate students with little machine 
 
 ---
 
-### Lecture 0: Preliminary Knowledge
+### Lecture 0: Preliminary Knowledge: [Keynote Link](./lectures/Lecture0.pptx)
 
 - **Python Basics**: Introduction to Python programming, focusing on the necessary skills for data analysis.
 - **Kaggle and Notebook Environments**: Introduction to Kaggle platform, competition basics, and using Kaggle Notebooks for coding.
@@ -57,7 +57,7 @@ This course is designed to introduce undergraduate students with little machine 
 
 ---
 
-### Lecture 1: Introduction to Ariel Data Challenge 2024
+### Lecture 1: Introduction to Ariel Data Challenge 2024 [Keynote Link1](./lectures/Lecture1.pptx) & [Keynote Link2](./lectures/Lecture1.5.pptx)
 
 - **Background (5 minutes)**: Introduction to exoplanets, their importance, and the role of the Ariel Mission.
 - **Research Objective (5 minutes)**: Overview of the challenge - extracting faint exoplanetary signals from noisy data.
