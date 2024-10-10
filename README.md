@@ -1,6 +1,6 @@
 # Tutorials: NeurIPS - Ariel Data Challenge 2024
 
-© 2024 kaggle君-sakura
+© 2024 sakura
 
 ## Materials
 
@@ -82,7 +82,7 @@ This course is designed to introduce undergraduate students with little machine 
 
 ---
 
-### Lecture 2: Official Solution Walkthrough
+### Lecture 2: Official Solution Walkthrough [Keynote Link](./lectures/Lecture2.pptx)
 
 **Focus**: Reviewing the official solution notebook provided in the competition.
 
@@ -90,27 +90,27 @@ This course is designed to introduce undergraduate students with little machine 
 - **Q&A**
 
 <details>
-<summary>【大纲】讲座2：官方解决方案讲解</summary>
+<summary>【大纲】讲座2：官方解决方案讲解及可能有效的显著提升模型表现的技术</summary>
 
 ```markdown
-**重点**：回顾竞赛中提供的官方解决方案。
+**重点**：回顾竞赛中提供的官方解决方案以及讨论可能有效的显著提升模型表现的技术。
 
 - **notebook 讲解 (~1 小时)**：逐步解释官方解决方案中的代码.
-- **答疑**
-```
-
-</details>
-
----
-
-### Lecture 3: Promising Solutions to SOTA
-
-<details>
-<summary>【大纲】讲座3：可能有效的显著提升模型表现的技术</summary>
-
-```markdown
 - **技术概述**：从数据形式和任务两个角度出发，提升模型表现.
 - **答疑**
 ```
 
 </details>
+
+## Citation
+
+If you use this repo in your work, please cite it as:
+
+```bibtex
+@misc{BiliSakura2024ArielDataChallenge,
+  author       = {Bili-Sakura},
+  title        = {NeurIPS-Ariel-Data-Challenge-2024},
+  year         = {2024},
+  url          = {https://github.com/Bili-Sakura/NeurIPS-Ariel-Data-Challenge-2024},
+  note         = {GitHub repository},
+}
